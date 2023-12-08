@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "vijay_private_limited/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

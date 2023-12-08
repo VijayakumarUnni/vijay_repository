@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/vijay_private_limited" mode="merge"/>
+    <filter root="/content/vijay_private_limited" mode="merge"/>
+    <filter root="/content/dam/vijay_private_limited/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/vijay_private_limited" mode="merge"/>
+</workspaceFilter>

@@ -1,5 +1,4 @@
-# vijay_repository
-
+# AEM
 # Sample AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
@@ -16,6 +15,7 @@ The main parts of the template are:
 * ui.frontend: an optional dedicated front-end build mechanism (Angular, React or general Webpack project)
 * ui.tests: Selenium based UI tests
 * all: a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies
+* analyse: this module runs analysis on the project which provides additional validation for deploying into AEMaaCS
 
 ## How to build
 
@@ -83,6 +83,16 @@ Clients](https://github.com/adobe/aem-testing-clients) and showcase some
 recommended [best
 practices](https://github.com/adobe/aem-testing-clients/wiki/Best-practices) to
 be put in use when writing integration tests for AEM.
+
+## Static Analysis
+
+The `analyse` module performs static analysis on the project for deploying into AEMaaCS. It is automatically
+run when executing
+
+    mvn clean install
+
+from the project root directory. Additional information about this analysis and how to further configure it
+can be found here https://github.com/adobe/aemanalyser-maven-plugin
 
 ### UI tests
 
